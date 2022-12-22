@@ -8,7 +8,7 @@
 .header {
   background-color: #ffffff;
   height: 100px;
-  display: flex;
+  /* display: flex; */
 }
 
 .header-nav {
@@ -16,37 +16,70 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 15px;
-  display: flex;
-  margin: auto 0;
-  margin-left: 100px;
-  column-gap: 50px;
-  align-items: center;
+  color: #000;
+  text-transform: uppercase;
+  /* display: flex; */
+  /* margin: auto 0; */
+  /* margin-left: 100px; */
+  /* column-gap: 50px; */
+  /* align-items: center; */
+}
+
+.navbar-nav .nav-link {
+  color: #000000;
 }
 
 .header-logo {
-  display: flex;
-  margin: auto;
+  /* display: flex; */
+  /* margin: auto; */
 }
 
 .header-login-menu {
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
   font-family: "Graphik";
   font-weight: 500;
   line-height: 15px;
   letter-spacing: 0em;
   text-align: left;
-  margin: auto;
-  margin-right: 100px;
-  column-gap: 51px;
+  /* margin: auto; */
+  /* margin-right: 100px; */
+  /* column-gap: 51px; */
 }
 
 .header-login-menu-images {
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+.dp-menu1 {
+  margin-left: 100px;
+}
+
+.dp-menu1 > ul {
+  column-gap: 50px;
+  align-items: center;
+}
+
+.dp-menu2 {
+  margin-left: 225px;
+  align-items: center;
+}
+
+.dp-menu3 {
+  margin-left: 417px;
+}
+
+.dp-menu3 > ul {
+  column-gap: 51px;
+  align-items: center;
+}
+
+.container-carousel {
+  background-color: rgb(227, 200, 170);
 }

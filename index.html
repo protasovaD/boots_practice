@@ -9,42 +9,55 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="bootstrap/dist//css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap/style.css" />
+
     <!-- <link rel="stylesheet" href="/font/style2.css" /> -->
   </head>
   <body>
-    <!-- НАЧАЛО ХЕДЕРАljhv -->
-    <header class="header">
-              <!-- СЛЕВА -->
-      <div class="header-nav">
-        <div>
-          <p>TEE CLUB +</p>
-        </div>
-        <div>
-          <p>SHOP +</p>
-        </div>
-        <div>
-          <p>GHOSTBUSTER</p>
-        </div>
-        <div>
-          <img src="/img/GIFT.png" alt="" />
+    <!-- НАЧАЛО ХЕДЕРА -->
+
+    <nav class="navbar navbar-expand-lg custom-container header-nav">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="dp-menu1">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">TEE CLUB +</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SHOP +</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">GHOSTBUSTER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="./img/GIFT.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="dp-menu2">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <img src="./img/geek-fuel-bw-logo 1.png" alt="" class="d-inline-block align-text-top" />
+              </li>
+            </ul>
+          </div>
+          <div class="dp-menu3">
+            <ul class="navbar-nav">
+              <li><a class="nav-link header-login-menu" aria-current="page" href="#">LOGIN</a></li>
+              <li><img src="./img/magnifier.png" alt="" /></li>
+              <li><img src="./img/heart.png" alt="" /></li>
+              <li><img src="./img/package.png" alt="" /></li>
+            </ul>
+          </div>
         </div>
       </div>
-      <!-- ЛОГО -->
-      <div class="header-logo">
-        <img src="img/geek-fuel-bw-logo 1.png" alt="" />
-      </div>
-      <!-- СПРАВА -->
-      <div class="header-login-menu">
-        <div><p>LOGIN</p></div>
-        <div><img src="/img/magnifier.png" alt="" /></div>
-        <div><img src="/img/heart.png" alt="" /></div>
-        <div><img src="/img/package.png" alt="" /></div>
-      </div>
-      </div>
-    </header>
+    </nav>
+
     <!-- КОНЕЦ ХЕДЕРА -->
     <!-- НАЧАЛО ОСНОВЫ -->
-    <div class="container">
+    <div class="container-osn custom-container">
       <!-- ТЕКСТ СЛЕВА -->
       <div class="container-text-in-box">
         <div class="container-text-in-box-tit">
@@ -62,8 +75,34 @@
       </div>
     </div>
     <!-- КОНЕЦ ОСНОВЫ -->
+    <!-- НАЧАЛО СЛАЙДЕРА -->
+    <div class="custom-container container-carousel d-flex justify-content-center">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/slider/1.jpg" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slider/2.jpg" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slider/3.jpg" class="d-block" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
+      </div>
+    </div>
+    <!-- КОНЕЦ СЛАЙДЕРА -->
     <!-- НАЧАЛО ФУТЕРА -->
-    <div class="footer">
+
+    <div class="footer custom-container">
       <!-- НАЧАЛО БЕЛОГО ФУТЕРА -->
       <div class="footer-white">
         <p class="footer-white-title">featured fandoms</p>
@@ -149,5 +188,6 @@
       <!-- КОНЕЦ ЧЁРНОГО ФУТЕРА1 -->
     </div>
     <!-- КОНЕЦ ФУТЕРА -->
+    <script src="bootstrap/dist//js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

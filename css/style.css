@@ -15,12 +15,12 @@ p {
 }
 
 body {
-  max-width: 1920px;
+  /* max-width: 1920px; */
   background: rgb(231, 231, 231);
-  margin: auto;
+  /* margin: auto; */
 }
 
-.container {
+.container-osn {
   display: flex;
   height: 600px;
   background: #ff5050;
@@ -89,5 +89,9 @@ body {
 .tshirt-2 {
   position: absolute;
   left: 630px;
-  bottom: -5px;
+  bottom: 0px;
+}
+
+.carousel {
+  width: 1000px;
 }
