@@ -16,14 +16,14 @@ footer {
   letter-spacing: 0.05em;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 55px;
 }
 
 .footer-white-logos {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   column-gap: 75px;
-  margin-top: 37px;
 }
 
 .footer-black {
@@ -124,4 +124,20 @@ input[type="text"]:focus {
 
 input {
   outline: none;
+}
+
+.column1 {
+  margin-left: 350px;
+}
+
+.column2 {
+  margin-left: 154px;
+}
+
+.column3 {
+  margin-left: 95px;
+}
+
+.column4 {
+  margin-left: 1px;
 }
