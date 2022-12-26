@@ -4,11 +4,12 @@ footer {
 
 .footer-white {
   background-color: white;
-  height: 333px;
+  height: 233px;
 }
 
 .footer-white-title {
-  padding-top: 100px;
+  /* padding-top: 100px; */
+  margin-top: 100px;
   font-family: DIN Pro;
   font-size: 20px;
   font-weight: 700;
@@ -23,7 +24,8 @@ footer {
   /* display: flex; */
   justify-content: center;
   align-items: center;
-  column-gap: 75px;
+  column-gap: 43px;
+  opacity: 0.8;
 }
 
 .footer-black {
@@ -33,18 +35,7 @@ footer {
   position: relative;
 }
 
-.footer-black-columns {
-  display: flex;
-  justify-content: center;
-  column-gap: 150px;
-}
-
-.footer-black-column {
-  display: flex;
-  flex-direction: column;
-  margin-top: 100px;
-  row-gap: 34px;
-
+.footer-black {
   font-family: Graphik;
   font-size: 14px;
   font-weight: 500;
@@ -52,14 +43,25 @@ footer {
   letter-spacing: 0em;
   text-align: left;
   text-transform: uppercase;
+  position: relative;
+}
 
-  margin-bottom: 80px;
+.footer-black-row {
+  /* margin-top: 100px; */
+  padding-top: 100px;
+}
+
+.footer-black-bottom {
+  position: absolute;
+  bottom: 0;
+  text-transform: capitalize;
 }
 
 .footer-black-column-logos {
   display: flex;
   flex-direction: row;
   column-gap: 25px;
+  margin-top: 54px;
 }
 
 .footer-black-bottom-arr {
@@ -127,17 +129,30 @@ input {
 }
 
 .column1 {
-  margin-left: 350px;
+  padding: 0;
+  margin-left: 352px;
+}
+
+.column2 > div {
+  margin-bottom: 34px;
 }
 
 .column2 {
-  margin-left: 154px;
+  padding: 0;
+  margin-left: 120px;
+}
+
+.column3 > div {
+  margin-bottom: 34px;
 }
 
 .column3 {
-  margin-left: 95px;
+  padding: 0;
+  margin-right: 120px;
 }
 
 .column4 {
-  margin-left: 1px;
+  padding: 0;
+  margin-right: 350px;
+  white-space: nowrap;
 }
